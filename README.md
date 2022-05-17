@@ -1,4 +1,4 @@
-# UniversityCertificateValidation
+# Agricultural supply chain Validation
 
 1. Install Vagrant on ur local machine 
 2. After installing travel to the existing folder and run vagrant up, vagrant ssh to login
