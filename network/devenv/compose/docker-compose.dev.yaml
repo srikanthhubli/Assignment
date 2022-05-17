@@ -1,0 +1,34 @@
+# Docker compose for multi-org-ca-1
+#DEV_MODE_DEV
+version: '2'
+
+networks:
+  farmersorgu:
+
+services:
+  
+
+  # Farmersorg peer1
+  farmersorg-peer1.farmersorg.com:
+    container_name: farmersorg-peer1.farmersorg.com
+    
+    command: peer node start --peer-chaincodedev=true
+    
+
+  # Logistics peer1
+  logistics-peer1.logistics.com:
+    container_name: logistics-peer1.logistics.com
+    
+    command: peer node start --peer-chaincodedev=true
+
+  # Srienterprices peer1
+  srienterprices-peer1.srienterprices.com:
+    container_name: srienterprices-peer1.srienterprices.com
+    
+    command: peer node start --peer-chaincodedev=true    
+
+  # Priceauthority peer1
+  priceauthority-peer1.priceauthority.com:
+    container_name: priceauthority-peer1.priceauthority.com
+    
+    command: peer node start --peer-chaincodedev=true    

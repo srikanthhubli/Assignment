@@ -1,0 +1,52 @@
+[
+    {
+      "BatchId": "lmn123",
+      "LogisticsId":"logs123",
+      "FarmersId": "abc123",
+      "ProductId": "xyz123",
+      "ProductName": "paddy",
+      "Quantity": 1000,
+      "DateOfArrival": "2020-06-24",
+      "PlaceOfArrival": "Bengaluru"
+    },
+    {
+      "BatchId": "lmn124",
+      "FarmersId": "abc124",
+      "LogisticsId":"logs124",
+      "ProductId": "xyz124",
+      "ProductName": "jowhar",
+      "Quantity": 1000,
+      "DateOfDispatch": "2020-06-24",
+      "PlaceOfDispatch": "Bengaluru"
+    },
+    {
+      "BatchId": "lmn125",
+      "FarmersId": "abc123",
+      "LogisticsId":"logs125",
+      "ProductId": "xyz123",
+      "ProductName": "paddy",
+      "Quantity": 1000,
+      "DateOfDispatch": "2021-06-24",
+      "PlaceOfDispatch": "Bellary"
+    },
+    {
+      "BatchId": "lmn126",
+      "FarmersId": "abc124",
+      "LogisticsId":"logs126",
+      "ProductId": "xyz124",
+      "ProductName": "jowhae",
+      "Quantity": 1000,
+      "DateOfDispatch": "2020-06-24",
+      "PlaceOfDispatch": "Bellary"
+    },
+    {
+      "BatchId": "lmn127",
+      "FarmersId": "abc123",
+      "LogisticsId":"logs127",
+      "ProductId": "xyz123",
+      "ProductName": "paddy",
+      "Quantity": 1000,
+      "DateOfDispatch": "2021-06-24",
+      "PlaceOfDispatch": "Mysore"
+    }
+   ]       

@@ -1,0 +1,63 @@
+# Defines three organizations
+#  - Orderer organization
+#  - Org1  = Single peer organization
+#    Uses the "Specs" to declare the peers instead of Template
+#  - Org2  = Another peer organization
+# SOLUTION to the exercise
+
+##### Orderer for farmersorg
+OrdererOrgs:
+  - Name: Orderer
+    Domain: farmersorg.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+      
+#### Peers for Farmersorg
+PeerOrgs:
+  # Peer configuration for Farmersorg
+  - Name: Farmersorg
+    Domain: farmersorg.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: farmersorg-peer1
+        CommonName: farmersorg-peer1
+    Users:
+      Count: 1
+
+  # Peer configuration for Logistics
+  - Name: Logistics
+    Domain: logistics.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: logistics-peer1
+        CommonName: logistics-peer1
+    Users:
+      Count: 1
+
+  # Peer configuration for Srienterprices
+  - Name: Srienterprices
+    Domain: srienterprices.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: srienterprices-peer1
+        CommonName: srienterprices-peer1
+    Users:
+      Count: 1      
+
+
+  # Peer configuration for Priceauthority
+  - Name: Priceauthority
+    Domain: priceauthority.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: priceauthority-peer1
+        CommonName: priceauthority-peer1
+    Users:
+      Count: 1      
+      
+
+
+
+
+      

@@ -1,0 +1,14 @@
+[
+    {
+      "ProductId": "xyz123",
+      "ProductName": "paddy",
+      "Price": 10000,
+      "DateOfPrice": "2020-04-24"
+    },
+    {
+      "ProductId": "xyz124",
+      "ProductName": "jowhar",
+      "Price": 9000,
+      "DateOfPrice": "2020-04-24"
+    }
+   ]       
