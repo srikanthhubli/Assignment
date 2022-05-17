@@ -38,24 +38,13 @@ cd $GOPATH/src/token/qry/v6/data
 
 ./setup-data.sh
 
-================
-ExecuteRichQuery
-================
-set-chain-env.sh -q '{"Args":["ExecuteRichQuery","{\"selector\":{\"txnDate\": \"2009-12-12T00:00:00Z\"}}"]}'
-chain.sh query
 
-# Utility for executing queries:
-PS: Remember query attributes limit & skip are ignored by Fabric
-
-qry/v3/samples
-./run-query.sh    #NUMBER#      Executes the query against chaincode
-./run-query.sh    1.1           Executes the query in file:  query-1.1.json
 
 ===================
-GetByRegisterNumber
+GetByProductIdNumber
 ===================
 - Get the records of 1740103
-set-chain-env.sh -q '{"Args":["GetByRegisterNumber","1740103"]}'
+set-chain-env.sh -q '{"Args":["GetByProductIdNumber","xyz123"]}'
 chain.sh query
 
 
